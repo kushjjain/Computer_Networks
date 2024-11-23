@@ -15,7 +15,7 @@ class Token {
 
     public void addTokens() {
         long currentTime = System.currentTimeMillis();
-        long elapsedTimeInSeconds = (currentTime - lastTime) / 1000; // Convert ms to seconds
+        long elapsedTimeInSeconds = (currentTime - lastTime) / 1000; 
         int newTokens = (int) (elapsedTimeInSeconds * tokenRate);
         if (newTokens > 0) {
             currentTokens = Math.min(capacity, currentTokens + newTokens);
