@@ -1,7 +1,6 @@
 import java.util.Scanner; 
  
 public class Framing { 
-    // Character Count Framing 
     public static String characterCountEncode(String[] frames){
         StringBuilder encoded = new StringBuilder();
         for(String frame : frames){
@@ -28,7 +27,6 @@ public class Framing {
         return decode.toString().trim();
     }
 
-    //Byte Stuffing Framing
     public static final String flag = "$";
     public static final String esc = "#";
 

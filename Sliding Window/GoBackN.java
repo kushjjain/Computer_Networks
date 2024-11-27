@@ -1,6 +1,6 @@
 import java.util.*;
 public class GoBackN{
-    public static final int WINDOW_SIZE = 4;
+    public static final int WINDOW_SIZE = 3;
     public static final int TOTAL_FRAMES = 10;
     public static void sendFrame(int frame){
         System.out.println("Sending Frame " + frame + " .............. ");
